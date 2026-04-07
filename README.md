@@ -4,7 +4,8 @@
 
 模型使用 [Kimi K2.5](https://platform.moonshot.cn)（Moonshot OpenAI 兼容 API），Python + [Textual](https://github.com/Textualize/textual) 实现。
 
-![screenshot](https://github.com/chenpipi0807/pipclaw/raw/main/docs/screenshot.png)
+<img width="3840" height="2100" alt="微信图片_20260407132140_12989_100" src="https://github.com/user-attachments/assets/cb0b6e8e-ba7f-4b27-ae9c-2ed436dced42" />
+
 
 ---
 
