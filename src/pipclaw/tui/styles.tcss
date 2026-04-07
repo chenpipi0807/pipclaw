@@ -1,0 +1,170 @@
+/* KimiAgent TUI 全局样式 */
+
+Screen {
+    background: #0d1117;
+    color: #c9d1d9;
+}
+
+/* ── 顶部标题栏 ── */
+#title-bar {
+    height: 1;
+    background: #161b22;
+    color: #58a6ff;
+    padding: 0 1;
+    text-style: bold;
+}
+
+/* ── 主内容区（左右分栏） ── */
+#main-container {
+    height: 1fr;
+}
+
+#chat-panel {
+    width: 1fr;
+}
+
+/* ── 左侧：对话区（内层填满父容器） ── */
+#chat-container {
+    width: 100%;
+    height: 100%;
+}
+
+#chat-history {
+    height: 1fr;
+    overflow-y: auto;
+    padding: 0 1;
+    scrollbar-color: #30363d #0d1117;
+}
+
+#chat-input-area {
+    height: auto;
+    min-height: 3;
+    max-height: 8;
+    border-top: solid #30363d;
+    padding: 0 1;
+}
+
+#chat-input {
+    background: #0d1117;
+    color: #c9d1d9;
+    border: none;
+    height: auto;
+    min-height: 1;
+}
+
+/* ── 右侧：文件管理器（内层填满父容器） ── */
+#file-container {
+    width: 100%;
+    height: 100%;
+}
+
+#file-tree-area {
+    height: 60%;
+    border-bottom: solid #30363d;
+    overflow-y: auto;
+    padding: 0 1;
+    scrollbar-color: #30363d #0d1117;
+}
+
+#preview-area {
+    height: 40%;
+    overflow-y: auto;
+    padding: 0 1;
+    scrollbar-color: #30363d #0d1117;
+}
+
+#preview-label {
+    color: #8b949e;
+    text-style: italic;
+    height: 1;
+    padding: 0 1;
+    background: #161b22;
+}
+
+/* ── 底部状态栏 ── */
+#status-bar {
+    height: 1;
+    background: #161b22;
+    color: #8b949e;
+    padding: 0 1;
+}
+
+/* ── 消息气泡 ── */
+.msg-user {
+    color: #58a6ff;
+    margin-top: 1;
+}
+
+.msg-user-label {
+    color: #58a6ff;
+    text-style: bold;
+}
+
+.msg-assistant {
+    color: #c9d1d9;
+    margin-top: 1;
+}
+
+.msg-assistant-label {
+    color: #3fb950;
+    text-style: bold;
+}
+
+.msg-tool-call {
+    color: #d29922;
+    border: solid #30363d;
+    padding: 0 1;
+    margin: 0 0 0 2;
+}
+
+.msg-tool-result {
+    color: #8b949e;
+    padding: 0 0 0 2;
+}
+
+.msg-tool-result-error {
+    color: #f85149;
+    padding: 0 0 0 2;
+}
+
+.msg-thinking {
+    color: #6e7681;
+    text-style: italic;
+    padding: 0 0 0 2;
+}
+
+/* ── 文件树 ── */
+DirectoryTree {
+    background: #0d1117;
+    color: #c9d1d9;
+}
+
+DirectoryTree > .directory--guides {
+    color: #30363d;
+}
+
+DirectoryTree .tree--cursor {
+    background: #1f6feb;
+    color: #ffffff;
+}
+
+/* ── Yazi 按钮 ── */
+#btn-yazi {
+    height: 1;
+    width: 100%;
+    background: #161b22;
+    color: #8b949e;
+    border: none;
+    text-align: left;
+    padding: 0 1;
+}
+
+#btn-yazi:hover {
+    background: #1f6feb;
+    color: #ffffff;
+}
+
+/* ── 加载中 spinner ── */
+.spinner {
+    color: #58a6ff;
+}
